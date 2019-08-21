@@ -1,0 +1,38 @@
+
+.ant-select-selection__rendered{
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: hidden;
+  height: 30px !important;
+  line-height: 30px;
+}
+.ant-input {
+  width:15vw;
+}
+/* .ant-select-selection--multiple {
+  width:10vw;
+} */
+.search-up-down {
+  width: 8vw;
+  margin: 0 !important;
+  line-height: 30px;
+}
+.fix {
+  color: #f39c12 !important;
+}
+.location {
+  color:  #dd4b39 !important;
+}
+.ant-input-group-compact {
+  width: 324px
+}
+/* 调整编辑页面的form布局 */
+.ant-form-horizontal {
+  display: flex !important;
+  flex-wrap: wrap;
+}
+.ant-row.ant-form-item {
+  width: 20vw !important;
+  height: 30px;
+  margin-top: 3px;
+}

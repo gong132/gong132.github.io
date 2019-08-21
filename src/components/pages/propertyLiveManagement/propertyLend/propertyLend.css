@@ -1,0 +1,36 @@
+.headerData {
+  display: flex;
+  height: 50px;
+  background-color:blue;
+  justify-content: space-around;
+}
+.headerData>li {
+  list-style: none;
+  height: 50px;
+  font-size: 2rem;
+  line-height: 50px;
+}
+.data_ {
+  width: 200px;
+  height: 300px;
+  border: 1px solid black;
+  background-color: #fff;
+  display: none;
+  overflow: auto;
+}
+.data_title:hover {
+  cursor: pointer;
+  background-color: rgb(184, 184, 43) !important;
+  transition: .4s;
+}
+.U_loc {
+  height: 130px;
+}
+.U_loc>li { 
+  height: 30px;
+  width: 100px;
+  border: 1px solid black;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}

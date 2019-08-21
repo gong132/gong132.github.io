@@ -1,0 +1,57 @@
+
+.nav {
+  list-style: none;
+  display: flex;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  box-sizing: border-box;
+  height: 6vh;
+}
+.nav li {
+  text-align: center;
+  padding: 4px;
+  margin-left: 5px;
+}
+.nav li:hover {
+  background: #c0c0c0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#inquiry {
+  margin-left: 10px;
+}
+#inquiry input {
+  border: #d9dee4 1px solid;
+}
+.shade {
+  top: 150px;
+  left: 390px;
+  width: 500px;
+  height: 400px;
+  padding-top: 50px;
+  border-radius: 20px;
+}
+.ant-table-tbody > tr > td {
+  padding: 2px 2px !important;
+  word-break: break-word;
+  height: 20px;
+}
+.ant-table-thead > tr > th {
+  padding: 8px 8px !important;
+  word-break: break-word;
+}
+.ant-table-wrapper {
+  min-height: 450px;
+  overflow: auto;
+}
+.action>a {
+  padding: 2px 5px !important
+}
+.ant-table-fixed {
+  line-height: 1.5rem !important
+}
+.ant-table-pagination.ant-pagination {
+  margin-top: 4px;
+  margin-bottom: 0;
+}

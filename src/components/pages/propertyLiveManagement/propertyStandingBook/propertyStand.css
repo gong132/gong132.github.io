@@ -1,0 +1,42 @@
+
+.ant-select-selection__rendered{
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: hidden;
+  height: 30px !important;
+  line-height: 30px;
+}
+.ant-input {
+  width:15vw;
+}
+.ant-select-selection--multiple {
+
+}
+/* .ant-select-selection {
+  width: 10vw;
+} */
+
+.search-up-down {
+  width: 8vw;
+  margin: 0 !important;
+  line-height: 30px;
+}
+.fix {
+  color: #f39c12 !important;
+}
+.location {
+  color:  #dd4b39 !important;
+}
+.ant-row.ant-form-item {
+  margin:0 !important
+}
+/* 控制模块编号的展示 */
+.ant-row.ant-form-item {
+  position: relative; 
+  padding-left: 1vw;
+  margin-top: 3px !important;
+}
+
+.ant-form-item-label>label {
+  float: left;
+}

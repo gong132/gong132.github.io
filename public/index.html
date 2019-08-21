@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">  
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://webapi.amap.com/maps?v=1.4.14&key=1b2976340698a665f37181e07ba9d917&plugin=AMap.Geocoder"></script>
+    <script>
+      var geocoder;
+      if (!geocoder) {
+          geocoder = new AMap.Geocoder();
+      }
+      // 将geocoder对象放入window对象中
+      window.geocoder = geocoder;
+  </script>
+    <title>资产管理平台</title>
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

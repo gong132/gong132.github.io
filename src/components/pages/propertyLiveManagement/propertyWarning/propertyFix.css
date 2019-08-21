@@ -1,0 +1,21 @@
+.custom_alarm {
+  background-color: rgb(175, 173, 173);
+  border-radius: 10px;
+  opacity: .9;
+  position: fixed;
+  height: 100px;
+  width: 150px;
+  z-index: 1000;
+}
+.custom_alarm_son {
+  height: 30px;
+  line-height: 30px;
+  width:140px;
+  text-align: center;
+  margin: 2px auto;
+  border-radius: 5px;
+}
+.custom_alarm_son:hover{
+  cursor: pointer;
+  background-color: rgb(151, 147, 147);
+}

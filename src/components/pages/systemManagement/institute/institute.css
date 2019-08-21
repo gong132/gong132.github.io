@@ -1,0 +1,19 @@
+.action a{
+  display: inline-block;
+  color: black;
+  padding: 5px;
+  border-radius: 5px;
+}
+.action a:hover{
+  cursor: pointer;
+  background: rgb(223, 221, 221);
+}
+.edit {
+  color: #3c8dbc !important;
+}
+.delete {
+  color: #dd4b39 !important;
+}
+.ant-btn-primary {
+  display: inline-block !important;
+}

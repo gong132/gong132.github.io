@@ -1,0 +1,54 @@
+.body {
+  display: flex;
+  overflow-x: auto;
+  height: 78vh;
+  font-size: 1rem;
+  background-color: #fff;
+
+  .card {
+    flex-shrink: 0;
+    display: block;
+    height: 100%;
+    padding: 0;
+    // border: 1px solid rgb(168, 165, 165);
+    width: 250px !important;
+    margin-right: 5px;
+
+    .header {
+      padding: 1px;
+      position: relative;
+      border: 1px solid rgb(189, 184, 184);
+      width: 100%;
+      height: 40px;
+      line-height: 40px;
+      margin-bottom: 1px;
+      box-sizing: border-box;
+
+      .custom_num {
+        position: absolute;
+        right: 10px;
+      }
+    }
+    .content {
+      position: relative;
+      box-sizing: border-box;
+      display: flex;
+      padding: 1px;
+      margin-top: 1px;
+      margin-bottom: 1px;
+      border: 1px solid rgb(189, 184, 184);
+      background-color: #fff;
+      .content_son {
+        width: 200px;
+      }
+    }
+    .content:hover {
+      cursor: pointer;
+    }
+  }
+}
+:global(.antd-pro-components-global-footer-index-globalFooter) {
+  margin: 0px 0 6px 0;
+  padding: 0 16px;
+  text-align: center;
+}

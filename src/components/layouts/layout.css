@@ -1,0 +1,51 @@
+
+.office_bell:hover {
+  color: rgb(212, 75, 21);
+  font-weight: 900;
+}
+
+.data_bell:hover {
+  color: rgb(212, 75, 21);
+  font-weight: 900;
+  cursor: pointer;
+}
+.admin {
+  position: relative;
+  width: 100px;
+  text-align: center;
+  margin-left: 3vw;
+}
+.admin>a {
+  color: white
+}
+
+.admin:hover {
+  background-color: rgb(221, 217, 217);
+  border-radius: 5px;
+  color: black !important;
+}
+.admin:hover>a {
+  color: black !important;
+}
+.ant-layout-sider-trigger {
+  height: 8vh !important;
+  /* margin-top: -8vh */
+}
+.ant-layout-sider-has-trigger {
+  padding-bottom: 0 !important;
+}
+
+.ant-layout>.ant-layout-has-sider {
+  height: 92vh !important;
+  min-height: 0 !important;
+  background: rgb(66, 79, 99);
+}
+.ant-layout-content {
+  height: 81vh !important;
+}
+.ant-table-wrapper {
+
+}
+#root {
+  position: relative;
+}
